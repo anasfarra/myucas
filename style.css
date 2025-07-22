@@ -19,12 +19,12 @@ html {
 body {
   position: relative;
   padding: 0;
-  background-color: #a7a7a7;
+  background-color: #272930;
   font-family: 'ibra_font';
   font-size: 12px;
-  color: #555;
-  opacity: 0;
-  margin-right: -20px;
+  color: #FFF;
+  opacity: 1;
+  margin-right: 0;
  
 }
 h1,
@@ -368,7 +368,7 @@ pre {
   text-align: right;
   width: 206px;
   color: #FFF;
-  background: url(../images/logo.png) no-repeat 100% 0px;
+  background: url(images/logo.png) no-repeat 100% 0px;
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
   font-weight: 300;
   font-size: 19px;
@@ -563,7 +563,7 @@ background-color: #36a4cc;
   color: #fff;
 }
 .navbar-inner .navbar-nav > li > a:hover {
-  color: #555;
+  color: #FFF;
 }
 .navbar-inner .navbar-nav > li.button {
   padding: 10px 6px;
@@ -1094,7 +1094,7 @@ background-color: #36a4cc;
   font-size: 17px;
 }
 .sb-collapsed .cl-vnavigation li a span {
-  opacity: 0;
+  opacity: 1;
   width: 0;
   height: 0;
 }
@@ -1316,7 +1316,7 @@ background-color: #36a4cc;
   background-color: #444;
 }
 .cl-vnavigation .parent ul li.active a {
-  background-color: #555;
+  background-color: #FFF;
   border-right: 2px solid #2494f2;
 }
 .cl-vnavigation .parent ul li a:hover {
@@ -1480,7 +1480,7 @@ textarea.form-control {
   position: absolute;
   border: 0;
   background: transparent;
-  opacity: 0;
+  opacity: 1;
   cursor: pointer;
 }
 .speech-button i:before {
@@ -1499,7 +1499,7 @@ textarea.form-control {
   vertical-align: middle;
   height: 100%;
   width: 100%;
-  opacity: 0;
+  opacity: 1;
 }
 @keyframes blur {
   from {
@@ -1509,7 +1509,7 @@ textarea.form-control {
   }
   to {
     font-size: 25px;
-    opacity: 0;
+    opacity: 1;
     margin-top: -6px;
   }
 }
@@ -1521,7 +1521,7 @@ textarea.form-control {
   }
   90% {
     font-size: 25px;
-    opacity: 0;
+    opacity: 1;
     margin-top: -6px;
   }
   100% {
@@ -1536,7 +1536,7 @@ textarea.form-control {
   }
   to {
     font-size: 25px;
-    opacity: 0;
+    opacity: 1;
     margin-top: -6px;
   }
 }
@@ -1548,7 +1548,7 @@ textarea.form-control {
   }
   to {
     font-size: 25px;
-    opacity: 0;
+    opacity: 1;
     margin-top: -6px;
   }
 }
@@ -1659,7 +1659,8 @@ input::-webkit-input-speech-button {
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
 }
 body.texture {
-  background: url(../images/bg.jpg);
+  background: #272930 url(../images/bg.jpg) center center no-repeat;
+  background-size: cover;
 }
 .gallery-cont .item {
   width: 25%;
@@ -1730,7 +1731,7 @@ body.texture {
 /*Photo Hover*/
 .gallery-cont .item .over {
   top: 0;
-  opacity: 0;
+  opacity: 1;
   position: absolute;
   height: 100%;
   width: 100%;
@@ -1785,14 +1786,14 @@ body.texture {
 }
 .page-aside.email .mail-nav ul li a {
   border-radius: 0;
-  color: #555;
+  color: #FFF;
   padding: 12px 15px;
 }
 .page-aside.email .mail-nav ul li a:hover {
   background: rgba(0, 0, 0, 0.01);
 }
 .page-aside.email .mail-nav ul li.active a {
-  color: #555;
+  color: #FFF;
   background: rgba(0, 0, 0, 0.025);
 }
 .page-aside.email .mail-nav ul li a .label {
@@ -2602,7 +2603,7 @@ table tbody td .btn-group .dropdown-menu li > a {
 .block-flat .content.full-width {
   padding: 0;
   margin-left: -20px;
-  margin-right: -20px;
+  margin-right: 0;
   margin-bottom: -20px;
 }
 .block-flat .content h4 {
@@ -2915,7 +2916,7 @@ table tbody td .btn-group .dropdown-menu li > a {
 }
 .block h2 i {
   font-size: 24px;
-  color: #555;
+  color: #FFF;
   margin-left: 6px;
 }
 /*UI Datepicker*/
@@ -3273,7 +3274,7 @@ h1:first-child {
   transform: rotate(90deg);
 }
 .accordion .panel-heading a.collapsed {
-  color: #555;
+  color: #FFF;
 }
 .accordion .panel-heading a.collapsed .fa {
   transform: rotate(0deg);
@@ -3307,7 +3308,7 @@ h1:first-child {
 }
 .accordion.accordion-color .panel-heading a.collapsed {
   background-color: #FFF;
-  color: #555;
+  color: #FFF;
 }
 .accordion.accordion-color .panel-collapse .panel-body {
   background-color: #4D90FD;
@@ -3334,7 +3335,7 @@ h1:first-child {
 }
 .accordion.accordion-semi .panel-heading a.collapsed {
   background-color: #FFF;
-  color: #555;
+  color: #FFF;
   border-bottom: 0;
 }
 .accordion.accordion-semi .panel-collapse .panel-body {
@@ -3400,7 +3401,7 @@ h1:first-child {
     background:         linear-gradient(top, #2494F2 0%, #197CCF 100%);
 }
 .dd-item > button {
-  color: #555;
+  color: #FFF;
   font-family: FontAwesome;
   display: block;
   position: relative;
@@ -3622,7 +3623,7 @@ h1:first-child {
   padding-right: 16px;
 }
 .has-switch.switch-large span.switch-right {
-  margin-right: -20px;
+  margin-right: 0;
 }
 /*Small Size*/
 .has-switch.switch-small {
@@ -3869,7 +3870,7 @@ h1:first-child {
   padding: 10px;
   font-size: 15px;
   font-weight: 200;
-  color: #555;
+  color: #FFF;
 }
 .chat-wi .chat-tools {
   background: #F6F8FB;
@@ -3903,7 +3904,7 @@ h1:first-child {
 }
 .chat-wi .chat-in button:hover {
   border-color: #4D90FE;
-  color: #555;
+  color: #FFF;
 }
 .chat-wi .chat-in .input {
   margin-left: 70px;
@@ -4627,7 +4628,7 @@ button::-moz-focus-inner {
   background: #FFF;
 }
 .gritter-item-wrapper.clean .gritter-item {
-  color: #555;
+  color: #FFF;
 }
 .gritter-item-wrapper.clean .gritter-close {
   display: block !important;
@@ -4710,7 +4711,7 @@ button::-moz-focus-inner {
 .treeview ul li a {
   padding-top: 5px;
   padding-bottom: 5px;
-  color: #555;
+  color: #FFF;
 }
 .treeview ul li a:hover {
   background: #F9F9F9;
@@ -4796,7 +4797,7 @@ button::-moz-focus-inner {
     font-size: 17px;
   }
   .cl-vnavigation li a span {
-    opacity: 0;
+    opacity: 1;
     width: 0;
     height: 0;
   }
@@ -5063,7 +5064,7 @@ button::-moz-focus-inner {
   background-color: #000000;
 }
 .load-backdrop.fade {
-  opacity: 0;
+  opacity: 1;
   filter: alpha(opacity=0);
 }
 .load-backdrop.in {
