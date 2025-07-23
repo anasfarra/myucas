@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!-- saved from url=(0031)https://staff.ucas.edu.ps/login -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ar">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>خدمات الموظفين - الكلية الجامعية للعلوم التطبيقية</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="برنامج إدارة الكلية">
+    <meta name="author" content="الكلية الجامعية - مركز الحاسوب">
+    <link rel="shortcut icon" href="https://staff.ucas.edu.ps/images/favicon.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome.min.css">
+    <link href="blue.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="style.css" rel="stylesheet">
+</head>
+<body class="dir-right texture">
+    <!-- Override form submission to redirect directly -->
+    <script>
+        function redirectToStaff() {
+            window.location.href = 'https://staff.ucas.edu.ps/login';
+            return false;
+        }
+    </script>
+
+    <form id="form1" onsubmit="return redirectToStaff();">
+        <div id="cl-wrapper" class="login-container">
+            <div class="middle-login">
+                <div class="block-flat">
+                    <div class="header">
+                        <h3 class="text-center">
+                            <img class="logo-img" src="logo.png" alt="logo">خدمات الموظفين
+                        </h3>
+                    </div>
+                    <div class="content">
+                        <div class="form-horizontal">
+                            <h4 class="title">تسجيل الدخول</h4>
+                            <div class="form-group">
+                                <div class="col-sm-12 divUserName">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                        <input type="text" placeholder="اسم المستخدم" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-12">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                                        <input type="password" placeholder="كلمة المرور" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="foot">
+                            <a class="btn-xs btn-link pull-right" href="https://staff.ucas.edu.ps/Profile/forgotpassword.aspx">استرجاع كلمة المرور</a>
+                            <button type="submit" class="btn btn-primary">تسجيل دخول</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center out-links"><a href="#">2019 UCAS © </a></div>
+            </div>
+        </div>
+    </form>
+
+    <!-- Required JS removed for simplicity -->
+</body>
+</html>
